@@ -1,6 +1,6 @@
-var express = require('express');
-var router = express.Router();
-var context = {
+let express = require('express');
+let router = express.Router();
+let context = {
     "active_page_index" : 1
 };
 /* GET home page. */
