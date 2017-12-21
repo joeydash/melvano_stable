@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<%- include includes/header.ejs %>
+<link rel="stylesheet" type="text/css" href="mine/css/index_app.css">
+<body>
+<%- include includes/navbar.ejs%>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4" style="padding-top: 30vh;">
+            <div class="account-wall">
+                <form class="form-signin">
+                    <input type="text" class="form-control" placeholder="Email" required autofocus style="margin-top: 4vh;">
+                    <input type="password" class="form-control" placeholder="Password" required style="margin-top: 4vh;">
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" style="margin-top: 4vh;">
+                        Sign in</button>
+                    <div style="margin-top: 4vh;">
+                        <a href="#" style="margin-top: 4vh;">Create an account </a>
+                        <a href="#" class="pull-right">Forgot password </a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
